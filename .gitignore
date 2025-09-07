@@ -1,0 +1,19 @@
+
+# Ignore all node_modules folders anywhere in the project
+node_modules/
+
+# Ignore Mac system files
+.DS_Store
+
+integrations_technical_assessment/frontend/
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+*.venv
+*.env
